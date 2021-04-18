@@ -18,7 +18,13 @@ strong
 	font-weight: bold;
 }
 
-/*page index.html*/
+#anchor
+{
+	width: 100%;
+	height: 0%;
+}
+
+/*navigateur permanent*/
 
 #nav
 {
@@ -31,37 +37,37 @@ strong
 	min-height: 100px;
 	width: 100%;
 	
+	border-bottom: 1px black solid;
+
 	display: flex;
 }
 
-#nav_left
+#nav_logo
 {
-	width: 60%;
+	position: relative;
+	top: 0px;
+	left: 0px;
 
-	display: flex;
+	height: 100px;
+	width: 100px;
 }
-
 
 .element_nav
 {
-	background-color: red;
-
 	margin: 10px;
 	margin-left: 150px;
-	width: 50%;
+	margin-right: 250px;
+	width: 100%;
 
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;	
 }
 
 .element_nav_clicker
 {
-	background-color: white;
-
-	width: 40%;
-	height: 60%;
+	width: 30%;
+	height: 90%;
 
 	display: flex;
 	flex-direction: row;
@@ -69,24 +75,10 @@ strong
 	align-items: center;
 }
 
-#nav_right
+.element_nav_clicker:nth-child(2)
 {
-	width: 40%;
-
-	display: flex;
-	justify-content: flex-end;
-}
-
-#nav_right_phone
-{
-	background-color: red;
-
-	width: 40%;
-	margin: 10px;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	border-left: 5px double red;
+	border-right: 5px double red;
 }
 
 .nav_lien
@@ -103,18 +95,10 @@ strong
 	text-decoration: underline;
 }
 
-#nav_text
-{
-	font-size: 1.25em;
 
-	color: white;
-	text-align: center;
-	text-shadow: 0.2em 0.1em 0.25em black;
-}
+/*page d'acceuil*/
 
-/*main page*/
-
-#offset
+#welcome_page
 {
 	position: relative;
 	top: 100px;
@@ -156,9 +140,34 @@ strong
 	height: 90%;
 	width: 90%;
 
+	padding: 10px;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+#bloc_avantages h1
+{
+	color: white;
+
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+#bloc_avantages h2
+{
+	color: white;
+
+	font-size: 1.25em;
+
+	text-align: center;
+}
+
+#bloc_avantages ul
+{
+	color: white;
+	margin: 10px;
 }
 
 #bloc_contact
@@ -214,34 +223,57 @@ strong
 	align-items: center;
 }
 
-.section_figure_image1
+.figure_border
 {
-	background: url("fourgon.jpg") center;
-	background-size: cover;
+	width: 100%;
+	height: 460px;
+	margin: 10px;
 
-	width: 95%;
-	height: 95%;
+	border: double 10px red;
 }
 
-.section_figure_image2
+.section_figure_image
 {
-	background: url("machine.jpg") center;
-	background-size: cover;
+	width: 100%;
+	height: 100%;
 
-	width: 95%;
-	height: 95%;
+	max-height: 500px;
+
+	background-size: cover;
 }
 
 .article
 {
-	background-color: grey;
+	height: 500px;
 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*page nos_realisation.html*/
+
+#realisation_page
+{
+	position: relative;
+	top: 100px;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+
+#WIP
+{
+	width: 100%;
 	height: 500px;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 
 /*page contact.html*/
 
@@ -258,7 +290,7 @@ strong
 #contact_section
 {
 	width: 100%;
-	height: 800px;
+	height: 1000px;
 
 	display: flex;
 	flex-direction: row;
@@ -267,8 +299,6 @@ strong
 
 #left_side
 {
-	background-color: red;
-
 	width: 50%;
 	height: 100%;
 
@@ -278,57 +308,41 @@ strong
 	align-items: center;
 }
 
-#coordonnees
-{
-	background-color: white;
-
-	width: 100%;
-	height: 50%;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 #coordonnees_article
 {
-	background-color: white;
+	width: 100%;
+	height: 40%;
 
-	width: 90%;
-	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
-article[id="coordonnees_article"] h1
+div[id="left_side"] h1
 {
-	background-color: white;
+	font-size: 1.75em;
+	margin-left: 1em;
+
+	text-decoration: underline;
 }
 
-article[id="coordonnees_article"] p
+div[id="left_side"] p
 {
-	background-color: white;
+	font-size: 1.4em;
 
-	margin-top: 1em;
-	margin-bottom: 0.5em;
-}
-#without_dot
-{
-	list-style: none;
+	margin: 1.5em;
+	margin-bottom: 2em;
 }
 
 .google_map_figure
 {
+	width: 100%;
+	height: 60%;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
-
-.google_map_figure:nth-child(1)
-{
-	background-color: white;
-	
-	align-self: flex-start;
-	margin-left: 5%;
 }
 
 #google_map
@@ -336,6 +350,9 @@ article[id="coordonnees_article"] p
 	border: 0;
 	width: 90%;
 	height: 90%;
+	margin: 5%;
+
+	border: double 10px red;
 }
 
 #coordonnees_article_formulaire
@@ -360,9 +377,27 @@ footer
 	flex-direction: column;
 }
 
-footer div
+footer h1
 {
-	width: 100%;
+	color: white;
+
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+footer h2
+{
+	color: white;
+
+	font-size: 1.25em;
+
+	text-align: center;
+}
+
+footer ul
+{
+	color: white;
+	margin: 10px;
 }
 
 footer p
@@ -370,10 +405,31 @@ footer p
 	color: white;
 }
 
-#footer_anchor
+footer a
 {
+	color: white;
+
+	text-decoration: none;
+}
+
+footer a:hover
+{
+	text-decoration: underline;
+}
+
+
+#footer_div_anchor
+{
+	margin: 10px;
+
 	display: flex;
 	justify-content: center;
+}
+
+#footer_anchor
+{
+	font-size: 1.5em;
+	text-align: center;
 }
 
 #footer_credit
@@ -386,8 +442,6 @@ footer p
 
 #footer_credit article
 {
-	background-color: green;
-
 	width: 20%;
 	height: 380px;
 	margin: 10px;
@@ -396,27 +450,29 @@ footer p
 	flex-direction: column;
 }
 
-#footer_credit article h3
-{
-	color: white;
-
-	text-align: center;
-}
-
-#footer_credit article ul
-{
-	color: white;
-	margin: 10px;
-}
-
 #footer_credit aside
 {
-	background-color: green;
-
 	position: absolute;
 	right: 0px;
 
 	width: 20%;
-	height: 380px;
+	height: 100px;
 	margin: 10px;
+}
+
+#footer_ABH_copyright
+{
+	display: flex;
+	align-items: flex-end;
+
+	margin: 25px;
+
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#footer_logo
+{
+	margin-left: 50px;
 }
