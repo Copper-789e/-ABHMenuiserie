@@ -7,27 +7,32 @@
 </head>
 <body>
 	<!-- le navigateur permanent-->
-	<nav>
-		<img src="logo_nav_mini.png" height="100px" width="100px">
+	<nav id="nav">
+		<div id="nav_left">
+			<img src="logo_nav_mini.png" height="100px" width="100px">
 
-		<div class="element_nav">
-			<div class="element_nav_clicker">
-				<p>
-					<a href="index.html">page d'acceuil</a>
-				</p>
-			</div>
+			<div class="element_nav">
+				<div class="element_nav_clicker">
+					<p>
+						<a href="index.html" class="nav_lien">ACCEUIL</a>
+					</p>
+				</div>
 
-			<div class="element_nav_clicker">
-				<p>
-					<a href="contact.html">contacts</a>
-				</p>
+				<div class="element_nav_clicker">
+					<p>
+						<a href="contact.html" class="nav_lien">CONTACTS</a>
+					</p>
+				</div>
 			</div>
 		</div>
 
-		<div id="nav_contact">
-			<p>
-				numéro de téléphone
-			</p>
+		<div id="nav_right">
+			<div id="nav_right_phone">
+				<p id="nav_text">
+					<strong>Numéro de téléphone:<br/>
+					07 52 59 14 46</strong>
+				</p>
+			</div>
 		</div>
 	</nav>
 
@@ -83,8 +88,8 @@
 			<article class="article">
 				<div>
 					<p>
-					l'entrepise est belle
-				</p>
+						l'entrepise est belle
+					</p>
 				</div>
 			</article>
 			<figure class="section_figure">
@@ -94,8 +99,37 @@
 
 		<!--le pied de page-->
 		<footer>
-			<div>
-				<p> les crédits</p>
+			<!--retour en haut de page-->
+			<div id="footer_anchor">
+				<a href="#offset">RETOUR EN HAUT DE PAGE</a>
+			</div>
+
+			<!--les crédits-->
+			<div id="footer_credit">
+				<article>
+					<h3>ACCÈS RAPIDES</h3>
+					<ul class="organised_list">
+						<li>ACCEUIL</li>
+						<li>CONTACTS</li>
+					</ul>
+					<h3>VÉHICULES TRAVAILLÉS</h3>
+					<ul class="organised_list">
+						<li>Sedan</li>
+						<li>Utilitaires</li>
+						<li>Vans</li>
+					</ul>
+				</article>
+
+				<article>
+
+				</article>
+
+				<aside>
+					<h3>Réseaux sociaux</h3>
+					<p>
+						Aucuns
+					</p>
+				</aside>
 			</div>
 		</footer>
 	</div>

@@ -13,11 +13,16 @@
 	list-style: square inside;
 }
 
+strong
+{
+	font-weight: bold;
+}
+
 /*page index.html*/
 
-nav
+#nav
 {
-	background-color: #80F5FF;
+	background-color: white;
 
 	z-index: 9999;
 	position: fixed;
@@ -27,18 +32,23 @@ nav
 	width: 100%;
 	
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-
 }
+
+#nav_left
+{
+	width: 60%;
+
+	display: flex;
+}
+
 
 .element_nav
 {
 	background-color: red;
 
-	max-height: 75%;
-	width: 40%;
 	margin: 10px;
+	margin-left: 150px;
+	width: 50%;
 
 	display: flex;
 	flex-direction: row;
@@ -51,7 +61,7 @@ nav
 	background-color: white;
 
 	width: 40%;
-	height: 80%;
+	height: 60%;
 
 	display: flex;
 	flex-direction: row;
@@ -59,16 +69,50 @@ nav
 	align-items: center;
 }
 
-#nav_contact
+#nav_right
 {
-	background: grey;
-
-	width: 300px;
+	width: 40%;
 
 	display: flex;
-	justify-content: left;
+	justify-content: flex-end;
+}
+
+#nav_right_phone
+{
+	background-color: red;
+
+	width: 40%;
+	margin: 10px;
+
+	display: flex;
+	justify-content: center;
 	align-items: center;
 }
+
+.nav_lien
+{
+	font-size: 1.25em;
+
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav_lien:hover
+{
+	text-decoration: underline;
+}
+
+#nav_text
+{
+	font-size: 1.25em;
+
+	color: white;
+	text-align: center;
+	text-shadow: 0.2em 0.1em 0.25em black;
+}
+
+/*main page*/
 
 #offset
 {
@@ -199,13 +243,6 @@ nav
 	align-items: center;
 }
 
-footer
-{
-	background-color: #515151;
-
-	min-height: 200px;
-}
-
 /*page contact.html*/
 
 #contact_page
@@ -273,14 +310,6 @@ article[id="coordonnees_article"] p
 	margin-top: 1em;
 	margin-bottom: 0.5em;
 }
-
-article[id="coordonnees_article"] p strong
-{
-	background-color: red;
-
-	font-weight: bold;
-}
-
 #without_dot
 {
 	list-style: none;
@@ -318,4 +347,76 @@ article[id="coordonnees_article"] p strong
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+/*les crédits*/
+footer
+{
+	background-color: #515151;
+
+	min-height: 200px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+footer div
+{
+	width: 100%;
+}
+
+footer p
+{
+	color: white;
+}
+
+#footer_anchor
+{
+	display: flex;
+	justify-content: center;
+}
+
+#footer_credit
+{
+	height: 400px;
+
+	display: flex;
+}
+
+
+#footer_credit article
+{
+	background-color: green;
+
+	width: 20%;
+	height: 380px;
+	margin: 10px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+#footer_credit article h3
+{
+	color: white;
+
+	text-align: center;
+}
+
+#footer_credit article ul
+{
+	color: white;
+	margin: 10px;
+}
+
+#footer_credit aside
+{
+	background-color: green;
+
+	position: absolute;
+	right: 0px;
+
+	width: 20%;
+	height: 380px;
+	margin: 10px;
 }
