@@ -292,7 +292,7 @@ strong
 
 #coordonnees_article
 {
-	background-color: grey;
+	background-color: white;
 
 	width: 90%;
 	height: 90%;
@@ -300,12 +300,12 @@ strong
 
 article[id="coordonnees_article"] h1
 {
-	background-color: yellow;
+	background-color: white;
 }
 
 article[id="coordonnees_article"] p
 {
-	background-color: yellow;
+	background-color: white;
 
 	margin-top: 1em;
 	margin-bottom: 0.5em;
