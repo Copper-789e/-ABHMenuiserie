@@ -264,16 +264,66 @@ strong
 	flex-direction: column;
 }
 
-#WIP
+#realisation_page_intro
 {
-	width: 100%;
-	height: 500px;
+	background-color: white;
+
+	width: 100;
+	height: 200px;
 
 	display: flex;
 	justify-content: center;
-	align-items: center;
 }
 
+#realisation_page_intro_box
+{
+	background-color: red;
+
+	width: 60%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#realisation_page_array
+{
+	background-color: grey;
+
+	width: 100%;
+	height: 200px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+#realisation_page_array_title
+{
+	background-color: white;
+
+	width: 40%;
+	height: 80%;
+}
+
+#realisation_page_array_array
+{
+	background-color: white;
+
+	width: 40%;
+	height: 80%;
+}
+
+
+#realisation_page_realisations
+{
+	background-color: black;
+
+	width: 100;
+	height: 200px;
+}
 
 /*page contact.html*/
 
