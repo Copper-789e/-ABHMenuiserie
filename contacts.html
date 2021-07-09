@@ -38,7 +38,7 @@
 			<!--section google map + info-->
 			<div id="left_side">
 				<!--section pour coordonnées-->
-				<article id="coordonnees_article">
+				<article id="coordonnees_article_left">
 					<h1>COORDONNÉES</h1>
 					<p>
 						<strong>adresse :</strong> 26 rue de la Chasse à Eaux 50110 Cherbourg-en-Cotentin / Tourlaville<br/>
@@ -63,8 +63,35 @@
 			</div>
 
 			<!--section pour l'email-->
-			<article id="coordonnees_article_formulaire">
-				<p style="font-size: 2em">ici, il devrait y avoir un formulaire pour envoyer des mails</p>
+			<article id="coordonnees_article_right">
+				<h2>Contactez-nous</h2>
+				<form id="coordonnees_article_formulaire" method="post" action=mail.php>
+					<!--les coordonnées de la personnes-->
+					<fieldset>
+						<legend>Vos coordonnées</legend>
+
+						<input type="text" name="nom" placeholder="nom *" required></br>
+
+						<input type="text" name="prenom" placeholder="prénom *" required></br>
+
+						<input type="tel" name="telephone" placeholder="téléphone *" required/></br>
+
+						<input type="email" name="email" placeholder="e-mail *" required>
+					</fieldset>
+
+					<!--information plus poussées-->
+					<fieldset>
+						<legend>votre message : </legend>
+						<textarea placeholder="votre message *"  name="message" required></textarea></br>
+
+						<input type="text" name="societe" placeholder="société">
+					</fieldset>
+
+					<input type="submit" value="envoyer">
+					<p>
+						* signifie que le champ est obligatoire pour que le formulaire soit envoyer
+					</p>
+				</form>
 			</article>
 		</section>
 

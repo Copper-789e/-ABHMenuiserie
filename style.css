@@ -13,6 +13,11 @@
 	list-style: square inside;
 }
 
+ul li
+{
+	display: inline;
+}
+
 strong
 {
 	font-weight: bold;
@@ -268,8 +273,13 @@ strong
 {
 	background-color: white;
 
-	width: 100;
+	width: 100%;
 	height: 200px;
+
+	box-sizing: border-box;
+	border: 25px white solid;
+
+	background-color: grey;
 
 	display: flex;
 	justify-content: center;
@@ -277,7 +287,7 @@ strong
 
 #realisation_page_intro_box
 {
-	background-color: red;
+
 
 	width: 60%;
 	height: 100%;
@@ -292,37 +302,62 @@ strong
 	background-color: grey;
 
 	width: 100%;
-	height: 200px;
+	height: 100px;
+
+	box-sizing: border-box;
 
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-}
-
-#realisation_page_array_title
-{
-	background-color: white;
-
-	width: 40%;
-	height: 80%;
 }
 
 #realisation_page_array_array
 {
 	background-color: white;
 
-	width: 40%;
 	height: 80%;
+
+	box-sizing: border-box;
+	padding: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin: 10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
 #realisation_page_realisations
 {
+	width: 100%;
+	min-height: 1000px;
+
 	background-color: black;
 
-	width: 100;
-	height: 200px;
+	display: flex;
+	flex-direction: row;
+}
+
+.realisation_page_realisations_figure
+{
+	width: 25%;
+	height: 400px;
+
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+figcaption
+{
+	font-size: 2em;
+	font-weight: bold;
+	color: red;
 }
 
 /*page contact.html*/
@@ -358,7 +393,7 @@ strong
 	align-items: center;
 }
 
-#coordonnees_article
+#coordonnees_article_left
 {
 	width: 100%;
 	height: 40%;
@@ -405,15 +440,46 @@ div[id="left_side"] p
 	border: double 10px red;
 }
 
-#coordonnees_article_formulaire
+#coordonnees_article_right
 {
-	background-color: grey;
 	width: 50%;
 	height: 100%;
 
+	padding: 10px;
+
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+#coordonnees_article_formulaire
+{
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/*pour le formulaire*/
+fieldset
+{
+	width: 100%;
+
+	box-sizing: border-box;
+	border: 2px black solid;
+	padding: 10px;
+}
+input
+{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+}
+textarea
+{
+	width: 100%;
+	height: 100px;
 }
 
 /*les crédits*/
