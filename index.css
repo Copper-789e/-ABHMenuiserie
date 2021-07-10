@@ -1,0 +1,218 @@
+/*page d'acceuil*/
+#welcome_page
+{
+	position: relative;
+	top: 100px;
+	width: 100%;
+}
+
+/*google map illustration*/
+#illustration
+{
+	background: url("pictures/illustration.jpg") no-repeat center;
+	background-size: 100%;
+
+	min-height: 400px;
+}
+
+/*1ere section presentation*/
+/*gauche:  presentation globale*/
+#presentation
+{
+	height: 400px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#presentation_article
+{
+	height: 100%;
+	width: 60%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#presentation_article_list
+{
+	background-color: grey;
+
+	height: 90%;
+	width: 90%;
+
+	padding: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#presentation_article_list h3
+{
+	color: white;
+
+	font-size: 1.25em;
+
+	text-align: left;
+}
+#presentation_article_list ul
+{
+	color: white;
+	margin: 10px;
+
+	list-style: square inside;
+}
+/*droite : contactez-nous*/
+#presentation_contact
+{
+	background-color: grey;
+
+	width: 40%;
+	height: 128px;
+
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#presentation_contact h3
+{
+	color: white;
+
+	font-size: 1.25em;
+
+	text-align: center;
+}
+#presentation_contact_button
+{
+	background-color: red;
+
+	height: 1.5em;
+	width: 8em;
+	margin-top: 1em;
+}
+#presentation_contact_button p
+{
+	color: white;
+}
+#presentation_contact_button p:visited
+{
+	color: white;
+}
+
+
+/*pour les titres des parties*/
+#welcome_page h2
+{
+	color: red;
+	font-size: 2em;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+/*2eme section sur la societe*/
+#compagny
+{
+	height: auto;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+#compagny_title
+{
+	width: 100%;
+	height: 100px;
+
+	background-color: grey;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+#compagny_section
+{
+	width: 100%;
+	height: 400px;
+
+	display: flex;
+	flex-direction: row;
+}
+#compagny_section_figure
+{
+	width: 50%;
+	height: 100%;
+}
+#compagny_section_figure_image
+{
+	max-width: 100%;
+	height: 360px;
+
+	margin: 10px;
+	border: double 10px red;
+
+	background-image: url(pictures/fourgon.jpg);
+	background-size: cover;
+}
+#compagny_section_article
+{
+	width: 50%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*3ème section sur les services*/
+#services
+{
+	width: 100%;
+	height: auto;
+}
+#services_title
+{
+	width: 100%;
+	height: 100px;
+
+	background-color: grey;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+#services_section
+{
+	max-width: 100%;
+	height: 400px;
+
+	display: flex;
+	flex-direction: row;
+}
+#services_section_article
+{
+	width: 50%;
+	max-height: 100%;
+}
+#services_section_figure
+{
+	width: 50%;
+	max-height: 100%;
+}
+#services_section_figure_image
+{
+	max-width: 100%;
+	height: 360px;
+
+	margin: 10px;
+	box-sizing: border-box;
+	border: double 10px red;
+
+	background-image: url(pictures/machine.jpg);
+	background-size: cover;
+}

@@ -1,0 +1,118 @@
+/*page contact*/
+#contact_page
+{
+	position: relative;
+	top: 100px;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+#contact_section
+{
+	width: 100%;
+	height: 1000px;
+
+	display: flex;
+	flex-direction: row;
+}
+#left_side
+{
+	width: 50%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#coordonnees_article_left
+{
+	width: 100%;
+	height: 40%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+div[id="left_side"] h1
+{
+	font-size: 1.75em;
+	margin-left: 1em;
+
+	text-decoration: underline;
+}
+div[id="left_side"] p
+{
+	font-size: 1.4em;
+
+	margin: 1.5em;
+	margin-bottom: 2em;
+}
+.google_map_figure
+{
+	width: 100%;
+	height: 60%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#google_map
+{
+	border: 0;
+	width: 90%;
+	height: 90%;
+	margin: 5%;
+
+	border: double 10px red;
+}
+#coordonnees_article_right
+{
+	width: 50%;
+	height: 100%;
+
+	padding: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#coordonnees_article_formulaire
+{
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+/*pour le formulaire*/
+fieldset
+{
+	width: 100%;
+
+	box-sizing: border-box;
+	border: 2px black solid;
+	padding: 10px;
+}
+input
+{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+}
+textarea
+{
+	width: 100%;
+	height: 100px;
+}
+#coordonnees_article_formulaire_submit
+{
+	width: 25%;
+	margin: 10px;
+	margin-left: 5%;
+}

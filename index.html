@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="utf-8">
 	<title>ABH Menuiserie</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
 	<div id="anchor"></div>
 	<!-- le navigateur permanent-->
 	<nav id="nav">
-		<img src="logo_nav_mini.png" id="nav_logo">
+		<img src="pictures\logo_nav_mini.png" id="nav_logo">
 
 		<div class="element_nav">
 			<div class="element_nav_clicker">
@@ -37,13 +38,13 @@
 		<!--première illustration-->
 		<div id="illustration"></div>
 
-		<!--section principale-->
-		<section id="bloc_principale">
+		<!--1er section-->
+		<section id="presentation">
 			<!--section sur les points de l'entreprise-->
-			<article id="bloc_article">
-				<div id="bloc_avantages">
-					<h2 style="text-align: left;">Pourquoi notre entreprise ?</h2>
-					<ul class="organised_list">
+			<article id="presentation_article">
+				<div id="presentation_article_list">
+					<h3>Qu'est-ce que nous faisons ?</h3>
+					<ul>
 						<li>Aménagement de véhicule extérieur et intérieur</li>
 						<li>Signalisations lumineuses et balises de sécurité</li>
 						<li>Accessoires pour véhicule</li>
@@ -54,50 +55,67 @@
 			</article>
 			
 			<!--section contact-->
-			<aside id="bloc_contact">
-				<div id="bloc_contact_div">
-					<p class="center_text">
-						Contactez-nous ! Nous serons ravis de vous fournir les informations que vous souhaitez.
-					</p>
-					<div id="contactez-nous_button">
-						<p class="center_text"><a href="contacts.html">Contactez-nous</a></p>
-					</div>
-				</div>
+			<aside id="presentation_contact">
+				<h3>
+					Contactez-nous ! Nous serons ravis de vous fournir les informations que vous souhaitez.
+				</h3>
+
+				<a href="contacts.html">
+					<button id="presentation_contact_button" >
+						Contactez-nous!
+					</button>
+					
+				</a>
 			</aside>
 		</section>
 
 		<!--section la société-->
-		<section class="divided2_section">
-			<figure class="section_figure">
-				<div class="figure_border">
-					<div class="section_figure_image" style="background-image: url(fourgon.jpg)"></div>
-				</div>
-			</figure>
-			<article class="article">
-				<p>
-					un magnifique fourgon
-				</p>
+		<section id="compagny">
+			<header id="compagny_title">
+				<h2>
+					Notre société
+				</h2>
+			</header>
 
-				<div>
-					<a href="nos_realisations.html">Pour aller voir nos réalisations</a>
-				</div>
-			</article>
+			<section id="compagny_section">
+				<figure id="compagny_section_figure">
+					<div id="compagny_section_figure_image"></div>
+				</figure>
+				<article id="compagny_section_article">
+					<p>
+						un magnifique fourgon
+					</p>
+
+					<div>
+						<a href="nos_realisations.html">
+							<button>
+								Aller voir nos réalisations
+							</button>
+						</a>
+					</div>
+				</article>
+			</section>
 		</section>
 
 		<!--section services-->
-		<section class="divided2_section">
-			<article class="article">
-				<div>
-					<p>
-						l'entrepise est belle
-					</p>
-				</div>
-			</article>
-			<figure class="section_figure">
-				<div class="figure_border">
-					<div class="section_figure_image" style="background-image: url(machine.jpg)"></div>
-				</div>
-			</figure>
+		<section id="services">
+			<header id="services_title">
+				<h2>
+					Nos services
+				</h2>
+			</header>
+			<section id="services_section">
+				<article id="services_section_article">
+					<div>
+						<p>
+							l'entrepise est belle
+						</p>
+					</div>
+				</article>
+				<figure id="services_section_figure">
+						<div id="services_section_figure_image"></div>
+				</figure>
+			</section>
 		</section>
 
 		<!--le pied de page-->
@@ -110,13 +128,13 @@
 			<!--les crédits-->
 			<div id="footer_credit">
 				<article>
-					<h2>ACCÈS RAPIDES</h2>
+					<h3>ACCÈS RAPIDES</h3>
 					<ul class="organised_list">
 						<li><a href="index.html">ACCUEIL</a></li>
 						<li><a href="nos_realisations.html">NOS RÉALISATIONS</a></li>
 						<li><a href="contacts.html">CONTACTS</a></li>
 					</ul>
-					<h2>KITS VÉHICULES</h2>
+					<h3>KITS VÉHICULES</h3>
 					<ul class="organised_list">
 						<li>METTRE</li>
 						<li>LES</li>
@@ -129,7 +147,7 @@
 				</article>
 
 				<aside>
-					<h2>RÉSEAUX SOCIAUX</h2>
+					<h3>RÉSEAUX SOCIAUX</h3>
 					<p class="center_text">
 						Nous ne possédons aucun réseau social
 					</p>
@@ -137,7 +155,7 @@
 
 				<figure id="footer_ABH_copyright">
 					<h1>l'entreprise ABH est une marque déposée</h1>
-					<img src="logo_nav_mini.png" id="footer_logo">
+					<img src="pictures/logo_nav_mini.png" id="footer_logo">
 				</figure>
 			</div>
 		</footer>

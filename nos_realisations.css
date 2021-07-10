@@ -1,0 +1,97 @@
+/*page nos_realisation*/
+#realisation_page
+{
+	position: relative;
+	top: 100px;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+#realisation_page_intro
+{
+	background-color: white;
+
+	width: 100%;
+	height: 200px;
+
+	box-sizing: border-box;
+	border: 25px white solid;
+
+	background-color: grey;
+
+	display: flex;
+	justify-content: center;
+}
+#realisation_page_intro_box
+{
+
+
+	width: 60%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#realisation_page_array
+{
+	background-color: grey;
+
+	width: 100%;
+	height: 100px;
+
+	box-sizing: border-box;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#realisation_page_array_array
+{
+	background-color: white;
+
+	height: 80%;
+
+	box-sizing: border-box;
+	padding: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin: 10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#realisation_page_array_array ul li
+{
+	display: inline;
+}
+#realisation_page_realisations
+{
+	width: 100%;
+	min-height: 1000px;
+
+	background-color: black;
+
+	display: flex;
+	flex-direction: row;
+}
+.realisation_page_realisations_figure
+{
+	width: 25%;
+	height: 400px;
+
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+figcaption
+{
+	font-size: 2em;
+	font-weight: bold;
+	color: red;
+}
