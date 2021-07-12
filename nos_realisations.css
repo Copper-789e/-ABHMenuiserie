@@ -100,27 +100,31 @@
 #realisation_page_realisations
 {
 	width: 100%;
-	min-height: 1000px;
+	height: 900px;
 
-	background-color: black;
-
+	background-color: grey;
+	
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
-.realisation_page_realisations_figure
+#realisation_page_realisations figure
 {
-	width: 25%;
-	height: 400px;
+	min-width: 25%;
+	height: 33%;
 
 	background-size: cover;
 
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: flex-end;
+	flex: 1;
 }
-figcaption
+#realisation_page_realisations figcaption
 {
 	font-size: 2em;
 	font-weight: bold;
-	color: red;
+	color: white;
+	text-shadow: 2px 2px 1px black;
 }

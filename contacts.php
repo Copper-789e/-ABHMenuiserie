@@ -4,35 +4,13 @@
 	<meta charset="utf-8">
 	<title>ABH Contacts</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="contacts.css">
+	<link rel="stylesheet" type="text/css" href="contacts.css">-
 </head>
 <body>
 	<div id="anchor"></div>
 	<!-- le navigateur permanent-->
-	<nav id="nav">
-		<img src="pictures/logo_nav_mini.png" id="nav_logo">
+	<?php include("header.php");?>
 
-		<div class="element_nav">
-			<div class="element_nav_clicker">
-				<p>
-					<a href="index.html" class="nav_lien">ACCUEIL</a>
-				</p>
-			</div>
-
-			<div class="element_nav_clicker">
-				<p>
-					<a href="nos_realisations.html" class="nav_lien">NOS RÉALISATIONS</a>
-				</p>
-			</div>
-
-			<div class="element_nav_clicker">
-				<p>
-					<a href="contacts.html" class="nav_lien">CONTACTS</a>
-				</p>
-			</div>
-		</div>
-	</nav>
-	
 	<!--la page principale-->
 	<div id="contact_page">
 		<section id="contact_section">
@@ -49,8 +27,8 @@
 
 					<h3>HORAIRES D'OUVERTURE</h3>
 					<p>
-						<strong>Lundi à Jeudi :</strong> 8H00-16H30<br/>
-						<strong>Vendredi :</strong> 8H-16H<br/>
+						<strong>Lundi à Jeudi :</strong> 8H00-18H00<br/>
+						<strong>Vendredi :</strong> 8H00-17H00<br/>
 						<strong>Fermé le week-end</strong><br/>
 					</p>
 				</article>
@@ -78,22 +56,17 @@
 						<input type="tel" name="telephone" placeholder="téléphone *" required/></br>
 
 						<input type="email" name="email" placeholder="e-mail *" required>
+						
+						<input type="text" name="adresse" placeholder="adresse (non obligatoire)">
+
+						<input type="text" name="societe" placeholder="société (non obligatoire)">
 					</fieldset>
 
 					<!--information plus poussées-->
 					<fieldset>
-						<legend>votre message : </legend>
-						<textarea placeholder="votre message *"  name="message" rows="15" required>
-							je me demande ce que je vais faire de mes journées
-							sachant
-							que
-							je
-							saute
-							des
-							lignes 
-						</textarea></br>
+						<legend>Message :</legend>
+						<textarea placeholder="votre message *"  name="message" rows="15" required></textarea></br>
 
-						<input type="text" name="societe" placeholder="société">
 					</fieldset>
 
 					<input id="coordonnees_article_formulaire_submit" type="submit" value="Envoyer **">
@@ -106,46 +79,7 @@
 		</section>
 
 		<!--le pied de page-->
-		<footer>
-			<!--retour en haut de page-->
-			<div id="footer_div_anchor">
-				<a href="#anchor" id="footer_anchor">RETOUR EN HAUT DE PAGE</a>
-			</div>
-
-			<!--les crédits-->
-			<div id="footer_credit">
-				<article>
-					<h3>ACCÈS RAPIDES</h3>
-					<ul class="organised_list">
-						<li><a href="index.html">ACCUEIL</a></li>
-						<li><a href="nos_realisations.html">NOS RÉALISATIONS</a></li>
-						<li><a href="contacts.html">CONTACTS</a></li>
-					</ul>
-					<h3>KITS VÉHICULES</h3>
-					<ul class="organised_list">
-						<li>METTRE</li>
-						<li>LES</li>
-						<li>MARQUES</li>
-					</ul>
-				</article>
-
-				<article>
-
-				</article>
-
-				<aside>
-					<h3>RÉSEAUX SOCIAUX</h3>
-					<p class="center_text">
-						Nous ne possédons aucun réseau social
-					</p>
-				</aside>
-
-				<figure id="footer_ABH_copyright">
-					<h1>l'entreprise ABH est une marque déposée</h1>
-					<img src="pictures/logo_nav_mini.png" id="footer_logo">
-				</figure>
-			</div>
-		</footer>
+		<?php include("footer.php");?>
 	</div>
 </body>
 </html>

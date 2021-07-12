@@ -9,29 +9,8 @@
 <body>
 	<div id="anchor"></div>
 	<!-- le navigateur permanent-->
-	<nav id="nav">
-		<img src="pictures\logo_nav_mini.png" id="nav_logo">
+	<?php include("header.php");?>
 
-		<div class="element_nav">
-			<div class="element_nav_clicker">
-				<p>
-					<a href="index.html" class="nav_lien">ACCUEIL</a>
-				</p>
-			</div>
-
-			<div class="element_nav_clicker">
-				<p>
-					<a href="nos_realisations.html" class="nav_lien">NOS RÉALISATIONS</a>
-				</p>
-			</div>
-
-			<div class="element_nav_clicker">
-				<p>
-					<a href="contacts.html" class="nav_lien">CONTACTS</a>
-				</p>
-			</div>
-		</div>
-	</nav>
 
 	<!--la page principale-->
 	<div id="welcome_page">
@@ -48,8 +27,9 @@
 						<li>Aménagement de véhicule extérieur et intérieur</li>
 						<li>Signalisations lumineuses et balises de sécurité</li>
 						<li>Accessoires pour véhicule</li>
-						<li>Aménagement pour les professionnels et loisirs</li>
-						<li>Découpe de panneaux (bois/plexiglass/composite...)</li>
+						<li>Aménagement pour les professionnels et particuliers</li>
+						<li>Découpe de panneaux multimatériaux (bois/plexiglass/composite...)</li>
+						<li>Plaquage de chants pour meubles</li>
 					</ul>
 				</div>
 			</article>
@@ -83,7 +63,9 @@
 				</figure>
 				<article id="compagny_section_article">
 					<p>
-						un magnifique fourgon
+						nous aménageons votre utilitaire pour qu'il s'adapte à vos activités professionnelles ou loisirs, toutes nos réalisations sont faites sûr-mesures en fonction de vos besoins. </br>
+						Nous vous proposons des solutions personnalisées afin d'aménager votre véhicule comme vous le souhaitez. Nous travaillons les véhicules quelque soit leur marque : Peugeot, Fiat, Renauth, Wolkswagen, Ford, Mercedes, Iveco,... </br>
+						Nous mettons en oeuvre tout notre savoir faire ainsi que nos connaissances dans le domaine de l'aménagement et l'équipement de véhicules.
 					</p>
 
 					<div>
@@ -105,60 +87,37 @@
 				</h2>
 			</header>
 			<section id="services_section">
-				<article id="services_section_article">
-					<div>
-						<p>
-							l'entrepise est belle
-						</p>
-					</div>
-				</article>
-				<figure id="services_section_figure">
-						<div id="services_section_figure_image"></div>
+				<!--1er ligne-->
+				<figure>
+				
+					<figcaption>Aménage de véhicules utilitaires</figcaption>
+				</figure>
+				<figure>
+				
+					<figcaption>Habillage protection intérieur de véhicules</figcaption>
+				</figure>
+				<figure>
+				
+					<figcaption>Découpe de panneaux et gravages</figcaption>
+				</figure>
+				<!--2ème ligne-->
+				<figure>
+				
+					<figcaption>Fabrication de meubles sur mesures</figcaption>
+				</figure>
+				<figure>
+				
+					<figcaption>Fabrication d'enseignes</figcaption>
+				</figure>
+				<figure>
+				
+					<figcaption>Prochainement ...</figcaption>
 				</figure>
 			</section>
 		</section>
 
 		<!--le pied de page-->
-		<footer>
-			<!--retour en haut de page-->
-			<div id="footer_div_anchor">
-				<a href="#anchor" id="footer_anchor">RETOUR EN HAUT DE PAGE</a>
-			</div>
-
-			<!--les crédits-->
-			<div id="footer_credit">
-				<article>
-					<h3>ACCÈS RAPIDES</h3>
-					<ul class="organised_list">
-						<li><a href="index.html">ACCUEIL</a></li>
-						<li><a href="nos_realisations.html">NOS RÉALISATIONS</a></li>
-						<li><a href="contacts.html">CONTACTS</a></li>
-					</ul>
-					<h3>KITS VÉHICULES</h3>
-					<ul class="organised_list">
-						<li>METTRE</li>
-						<li>LES</li>
-						<li>MARQUES</li>
-					</ul>
-				</article>
-
-				<article>
-
-				</article>
-
-				<aside>
-					<h3>RÉSEAUX SOCIAUX</h3>
-					<p class="center_text">
-						Nous ne possédons aucun réseau social
-					</p>
-				</aside>
-
-				<figure id="footer_ABH_copyright">
-					<h1>l'entreprise ABH est une marque déposée</h1>
-					<img src="pictures/logo_nav_mini.png" id="footer_logo">
-				</figure>
-			</div>
-		</footer>
+		<?php include("footer.php");?>
 	</div>
 </body>
 </html>
