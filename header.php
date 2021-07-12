@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>header</title>
+	<title>test</title>
 </head>
 <body>
 	<nav id="nav">
@@ -11,19 +11,19 @@
 		<div class="element_nav">
 			<div class="element_nav_clicker">
 				<p>
-					<a href="index.php" class="nav_lien">ACCUEIL</a>
+					<a href="index.html" class="nav_lien">ACCUEIL</a>
 				</p>
 			</div>
 
 			<div class="element_nav_clicker">
 				<p>
-					<a href="nos_realisations.php" class="nav_lien">NOS RÉALISATIONS</a>
+					<a href="nos_realisations.html" class="nav_lien">NOS RÉALISATIONS</a>
 				</p>
 			</div>
 
 			<div class="element_nav_clicker">
 				<p>
-					<a href="contacts.php" class="nav_lien">CONTACTS</a>
+					<a href="contacts.html" class="nav_lien">CONTACTS</a>
 				</p>
 			</div>
 		</div>
