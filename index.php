@@ -58,7 +58,7 @@
 			<section id="compagny_section">
 				<!--1er partie sur les véhicules-->
 				<div id="compagny_section_1">
-					<figure style="background-image: url(nos_services/gravage_decoupe.JPG); background-size: cover; background-position: center;">
+					<figure style="background-image: url(nos_services/gravage_decoupe.jpg); background-size: cover; background-position: center;">
 						
 						<figcaption>Une réalisation</figcaption>
 					</figure>
@@ -78,7 +78,7 @@
 							Nous réalisons le placage de chants, panneaux, ...
 						</p>
 					</article>
-					<figure style="background-image: url(realisation/real_3/meuble_1.JPG); background-size: cover; background-position: center;">
+					<figure style="background-image: url(realisation/real_3/meuble_1.jpg); background-size: cover; background-position: center;">
 						
 						<figcaption>Une réalisation</figcaption>
 					</figure>
@@ -102,7 +102,7 @@
 				
 					<figcaption>Habillage protection intérieur de véhicules</figcaption>
 				</figure>
-				<figure style="background-image: url(nos_services/gravage_decoupe.JPG);">
+				<figure style="background-image: url(nos_services/gravage_decoupe.jpg);">
 				
 					<figcaption>Découpe de panneaux et gravages</figcaption>
 				</figure>
