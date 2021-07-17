@@ -17,11 +17,59 @@ strong
 	height: 0%;
 }
 
+/*les polices*/
+h1, h2, h3, h4, p, li, legend, figcaption , a, a:hover, a:visited, label
+{
+	font-family: Times New Roman, arial;
+	color: white;
+	text-shadow: 2px 2px 1px black;
+}
+footer h1,footer h2,footer h3,footer h4,footer p,footer li,footer legend,footer figcaption ,footer a,footer a:hover,footer a:visited
+{
+	text-shadow: none;
+}
+h1
+{
+	font-size: 1.5em;
+}
+h2
+{
+	font-size: 2em;
+}
+h3
+{
+	font-size: 1.5em;
+}
+h4
+{
+	font-size: 1.25em;
+}
+p, li, label
+{
+	font-size: 1.25em;
+}
+figcaption
+{
+	font-size: 1.5em;
+}
+legend
+{
+	font-size: 2em;
+}
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+
 
 /*navigateur permanent*/
 #nav
 {
-	background-color: white;
+	background-color: #515151;
 
 	z-index: 9999;
 	position: fixed;
@@ -71,15 +119,7 @@ strong
 }
 .nav_lien
 {
-	font-size: 1.25em;
-
-	color: black;
 	text-align: center;
-	text-decoration: none;
-}
-.nav_lien:hover
-{
-	text-decoration: underline;
 }
 
 
@@ -93,39 +133,13 @@ footer
 	display: flex;
 	flex-direction: column;
 }
-footer h1
-{
-	color: white;
-
-	font-size: 1.5em;
-	font-weight: normal;
-}
 footer h3
 {
-	color: white;
-
-	font-size: 1.25em;
-
 	text-align: center;
 }
 footer ul
 {
-	color: white;
 	margin: 10px;
-}
-footer p
-{
-	color: white;
-}
-footer a
-{
-	color: white;
-
-	text-decoration: none;
-}
-footer a:hover
-{
-	text-decoration: underline;
 }
 #footer_div_anchor
 {

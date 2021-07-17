@@ -27,14 +27,14 @@
 #realisation_page_intro h3
 {
 	font-size: 2em;
-	color: white;
+
 	font-weight: bold;
 	text-shadow: 2px 2px 1px black;
 }
 #realisation_page_intro p
 {
 	font-size: 1.25em;
-	color: white;
+	
 	font-weight: bold;
 	text-shadow: 2px 2px 1px black;
 }
@@ -71,9 +71,6 @@
 }
 #realisation_page_array h3
 {
-	color: white;
-	font-size: 2em;
-
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
@@ -114,6 +111,7 @@
 	height: 33%;
 
 	background-size: cover;
+	background-position: center;
 
 	display: flex;
 	flex-direction: row;

@@ -39,7 +39,7 @@
 
 	margin-bottom: 50px;
 
-	background: url(background/fond_carbone_perspective.jpg);
+	background: url(background/plaque_aluminium_dim.jpg);
 	background-size: cover;
 
 	border: 0px black solid;
@@ -49,29 +49,22 @@
 	flex-direction: column;
 	justify-content: center;
 }
-div[id="left_side"] h1
-{
-	font-size: 1.75em;
-	margin-left: 1em;
-
-	color: black;
-	text-decoration: underline;
-}
 #coordonnees_article_left h3
 {
-	font-size: 1.75em;
-	margin-left: 1em;
-
-	color: black;
-	text-decoration: underline;
+	font-size: 3em;
 }
 #coordonnees_article_left p
 {
-	font-size: 1.4em;
-	color: black;
-
-	margin: 1.5em;
-	margin-bottom: 2em;
+	font-size: 1.5em;
+}
+#coordonnees_article_left li
+{
+	font-size: 1.5em;
+	margin-left: 1.5em;
+}
+#coordonnees_article_left_2_h3
+{
+	margin-top: 2em;
 }
 .google_map_figure
 {
@@ -142,22 +135,54 @@ textarea
 
 	font-size: 1.25em;
 }
-#coordonnees_article_formulaire_submit
+#coordonnees_article_formulaire_concentement_submit
 {
 	width: 25%;
-	margin: 10px;
-	margin-left: 5%;
-}
-legend
-{
-	font-size: 2em;
-	color: white;
-	font-weight: bold;
-	text-decoration: underline;
+	margin: 25px;
 }
 form p 
-{
-	font-size: 1em;
-	background: white;
+{	
+	font-size: 1.25em;
 	width: 35em;
+}
+#coordonnees_article_formulaire_concentement_box
+{
+	padding: 25px;
+	box-sizing: border-box;
+
+	background: white;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+#coordonnees_article_formulaire_concentement
+{
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#coordonnees_article_formulaire_concentement input
+{
+	width: 25%;
+	min-height: 100%;
+}
+#coordonnees_article_formulaire_concentement label
+{
+	width: 75%;
+	height: 100%;
+
+	font-size: 1.25em;
+	color: black;
+	text-shadow: none;
+	text-align: justify;
+}
+#coordonnees_article_formulaire_concentement_box p
+{
+	color: black;
+	text-shadow: none;
 }
