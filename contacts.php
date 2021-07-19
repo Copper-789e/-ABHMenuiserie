@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>ABH Contacts</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="contacts.css">
+	<link rel="stylesheet" type="text/css" href="style.css?ts=<?=time()?>">
+	<link rel="stylesheet" type="text/css" href="contacts.css?ts=<?=time()?>">
 </head>
 <body>
 	<div id="anchor"></div>

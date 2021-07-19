@@ -2,10 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<!--L'idéal pour les mobiles : <meta name="viewport" content="width=device-width" />-->
 	<title>ABH Menuiserie</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="style.css?ts=<?=time()?>">
+	<link rel="stylesheet" type="text/css" href="index.css?ts=<?=time()?>">
 </head>
 <body>
 	<div id="anchor"></div>
