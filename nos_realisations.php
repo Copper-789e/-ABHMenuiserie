@@ -50,9 +50,6 @@
 			<figure >
 				<figcaption>Prochainement ...</figcaption>
 			</figure>
-			<figure >
-				<figcaption>Prochainement ...</figcaption>
-			</figure>
 			<!--2ère ligne-->
 			<figure >
 				<figcaption>Prochainement ...</figcaption>
@@ -63,13 +60,7 @@
 			<figure >
 				<figcaption>Prochainement ...</figcaption>
 			</figure>
-			<figure >
-				<figcaption>Prochainement ...</figcaption>
-			</figure>
 			<!--3ère ligne-->
-			<figure >
-				<figcaption>Prochainement ...</figcaption>
-			</figure>
 			<figure >
 				<figcaption>Prochainement ...</figcaption>
 			</figure>

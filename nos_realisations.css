@@ -99,27 +99,37 @@
 #realisation_page_realisations
 {
 	width: 100%;
-	height: 900px;
+	height: 1500px;
 
-	background-color: grey;
+	background-color: #999999;
 	
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: space-around;
 }
 #realisation_page_realisations figure
 {
-	min-width: 25%;
-	height: 33%;
+	width: 30%;
+	height: 25%;
 
 	background-size: cover;
 	background-position: center;
+	box-shadow: 15px 15px 5px black;
 
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: flex-end;
-	flex: 1;
+}
+#realisation_page_realisations figure:nth-child(even)
+{
+	background-color: lightgrey;
+}
+#realisation_page_realisations figure:nth-child(odd)
+{
+	background-color: grey;
 }
 #realisation_page_realisations figcaption
 {

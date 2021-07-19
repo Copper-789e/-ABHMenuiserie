@@ -143,6 +143,7 @@ textarea
 form p 
 {	
 	font-size: 1.25em;
+	width: auto;
 }
 #coordonnees_article_formulaire_concentement_box
 {
@@ -187,4 +188,29 @@ form p
 {
 	color: black;
 	text-shadow: none;
+}
+
+
+/*pour les mobiles*/
+@media screen and (max-width:1200px)
+{
+	#contact_section, #left_side, #coordonnees_article_right
+	{
+		box-sizing: border-box;
+	}
+	#contact_section
+	{
+		height: 2500px;
+		flex-direction: column;
+	}
+	#left_side
+	{
+		width: 100%;
+		height: 1200px;
+	}
+	#coordonnees_article_right
+	{
+		width: 100%;
+		height: 1300px;
+	}
 }

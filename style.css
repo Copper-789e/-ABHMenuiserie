@@ -24,7 +24,7 @@ h1, h2, h3, h4, p, li, legend, figcaption , a, a:hover, a:visited, label
 	color: white;
 	text-shadow: 2px 2px 1px black;
 }
-footer h1,footer h2,footer h3,footer h4,footer p,footer li,footer legend,footer figcaption ,footer a,footer a:hover,footer a:visited
+header a, footer h1,footer h2,footer h3,footer h4,footer p,footer li,footer legend,footer figcaption ,footer a,footer a:hover,footer a:visited
 {
 	text-shadow: none;
 }
@@ -91,7 +91,7 @@ a:hover
 	height: 100px;
 	width: 100px;
 }
-.element_nav
+#element_nav
 {
 	margin: 10px;
 	margin-left: 150px;
@@ -127,6 +127,7 @@ a:hover
 footer
 {
 	background-color: #515151;
+	border-top: 1px black solid;
 
 	min-height: 200px;
 
@@ -191,4 +192,38 @@ footer ul
 #footer_logo
 {
 	margin-left: 50px;
+}
+
+
+/*pour les mobiles*/
+@media screen and (max-width:1200px)
+{
+	/*tête de page*/
+	#element_nav
+	{
+		margin: 0px;
+	}
+	#element_nav h1
+	{
+		font-size: 1.5em;
+	}
+	.element_nav_clicker
+	{
+		flex: 1;
+	}
+
+	/*pied de page*/
+	#footer_credit article
+	{
+		width: 40%;
+	}
+	#footer_credit aside
+	{
+		width: 40%;
+	}
+	footer li
+	{
+		margin: 20px;
+		font-size: 1.5em;
+	}
 }

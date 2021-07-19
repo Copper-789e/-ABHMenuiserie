@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<!--L'idéal pour les mobiles : <meta name="viewport" content="width=device-width" />-->
 	<title>ABH Menuiserie</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
@@ -58,10 +59,12 @@
 			<section id="compagny_section">
 				<!--1er partie sur les véhicules-->
 				<div id="compagny_section_1">
-					<figure style="background-image: url(nos_services/gravage_decoupe.jpg); background-size: cover; background-position: center;">
-						
-						<figcaption>Une réalisation</figcaption>
-					</figure>
+					<aside>
+						<figure style="background-image: url(nos_services/gravage_decoupe.jpg); background-size: cover; background-position: center;">
+
+							<figcaption>Une réalisation</figcaption>
+						</figure>
+					</aside>
 					<article id="compagny_section_1_article">
 						<p>
 						Nous aménageons votre utilitaire pour qu'il s'adapte à vos activités professionnelles ou loisirs, toutes nos réalisations sont faites sûr-mesures en fonction de vos besoins. </br>
@@ -78,11 +81,12 @@
 							Nous réalisons le placage de chants, panneaux, ...
 						</p>
 					</article>
-					<figure style="background-image: url(realisation/real_3/meuble_1.jpg); background-size: cover; background-position: center;">
+					<aside>
+						<figure style="background-image: url(realisation/real_3/meuble_1.jpg); background-size: cover; background-position: center;">
 						
-						<figcaption>Une réalisation</figcaption>
-					</figure>
-					
+							<figcaption>Une réalisation</figcaption>
+						</figure>
+					</aside>	
 				</div>
 		</section>
 	</section>
