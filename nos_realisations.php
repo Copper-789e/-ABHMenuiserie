@@ -18,7 +18,7 @@
 		<article id="realisation_page_intro">
 			<h3>Photos de nos services</h3>
 			<p>
-				Découvrez les services que nous avons réalisés au sein de différents clients </br>
+				Découvrez les services que nous avons réalisés pour différents clients </br>
 				Des particuliers aux professionnels, tous sont présentés
 			</p>
 		</article>
@@ -45,7 +45,7 @@
 				<figcaption>Véhicule de loisir</figcaption>
 			</figure>
 			<figure style="background-image: url(realisation/real_2/arriere.jpg)";>
-				<figcaption>Aménagement professionel</figcaption>
+				<figcaption>Aménagement professionnel</figcaption>
 			</figure>
 			<figure >
 				<figcaption>Prochainement ...</figcaption>

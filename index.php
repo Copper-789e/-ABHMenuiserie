@@ -21,12 +21,12 @@
 			<!--section sur les points de l'entreprise-->
 			<article id="presentation_article">
 				<div id="presentation_article_list">
-					<h3>Qu'est-ce que nous faisons ?</h3>
+					<h3>Ce que nous faisons :</h3>
 					<ul>
 						<li>Aménagement de véhicule extérieur et intérieur</li>
 						<li>Signalisations lumineuses et balises de sécurité</li>
 						<li>Accessoires pour véhicule</li>
-						<li>Aménagement pour les professionnels et particuliers</li>
+						<li>Aménagement pour professionnels et particuliers</li>
 						<li>Découpe de panneaux multimatériaux (bois/plexiglass/composite...)</li>
 						<li>Plaquage de chants pour meubles</li>
 					</ul>
@@ -66,7 +66,7 @@
 					</aside>
 					<article id="compagny_section_1_article">
 						<p>
-						Nous aménageons votre utilitaire pour qu'il s'adapte à vos activités professionnelles ou loisirs, toutes nos réalisations sont faites sûr-mesures en fonction de vos besoins. </br>
+						Nous aménageons votre utilitaire pour qu'il s'adapte à vos activités professionnelles ou de loisirs. Toutes nos réalisations sont faites sur-mesure en fonction de vos besoins. </br>
 						Nous vous proposons des solutions personnalisées afin d'aménager votre véhicule comme vous le souhaitez. Nous travaillons les véhicules quelque soit leur marque : Peugeot, Fiat, Renault, Wolkswagen, Ford, Mercedes, Iveco,... </br>
 						Nous mettons en oeuvre tout notre savoir faire ainsi que nos connaissances dans le domaine de l'aménagement et l'équipement de véhicules.
 						</p>
@@ -76,7 +76,7 @@
 				<div id="compagny_section_2">
 					<article id="compagny_section_2_article">
 						<p>
-							Nous réalisons la découpe de panneaux de contreplaqués, mélaminés, MDF, OSB, aluminiums sûr-mesure. Choissisez la matière, les dimensions, nous nous chargerons du reste. </br>
+							Nous réalisons la découpe de panneaux de contreplaqués, mélaminés, MDF, OSB, aluminiums sur-mesure. Choisissez la matière, les dimensions, nous nous chargerons du reste. </br>
 							Nous réalisons le placage de chants, panneaux, ...
 						</p>
 					</article>
@@ -99,7 +99,7 @@
 				<!--1er ligne-->
 				<figure style="background-image: url(realisation/real_2/arriere.jpg);">
 				
-					<figcaption>Aménage de véhicules utilitaires</figcaption>
+					<figcaption>Aménagement de véhicules utilitaires</figcaption>
 				</figure>
 				<figure>
 				

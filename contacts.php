@@ -83,10 +83,10 @@
 								<label for="choix">En envoyant le formulaire, j'accepte que l'entreprise ABH puisse me recontacter, et que les informations saisies soient exploitées dans le cadre de la relation commerciale qui peut en découler</label>
 							</div>
 
-							<input id="coordonnees_article_formulaire_concentement_submit" type="submit" value="Envoyer **">
+							<input id="coordonnees_article_formulaire_concentement_submit" type="submit" value="Envoyer">
 
 							<p>
-								* signifie que le champ est obligatoire pour que le formulaire soit envoyer
+								* signifie que le champ est obligatoire pour que le formulaire soit envoyé
 							</p>
 						</div>
 					</fieldset>
