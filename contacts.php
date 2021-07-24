@@ -84,8 +84,10 @@
 								<label for="choix">En envoyant le formulaire, j'accepte que l'entreprise ABH puisse me recontacter, et que les informations saisies soient exploitées dans le cadre de la relation commerciale qui peut en découler</label>
 							</div>
 
+							<!-- à implémenter
 							<div class="g-recaptcha" 
-							data-sitekey="6LcY_7kbAAAAAOW40PJQ07BS7SblNEX2yTq6RVDl">Submit</div>
+							data-sitekey="6LcY_7kbAAAAAN8aTF32_QNgSJIhXXEyDizTltlI">Submit</div>
+							-->
 							<input id="coordonnees_article_formulaire_concentement_submit" type="submit" value="Envoyer">
 
 							<p>
