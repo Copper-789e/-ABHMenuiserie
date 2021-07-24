@@ -11,7 +11,7 @@
 #realisation_page_intro
 {
 	width: 100%;
-	height: 350px;
+	height: 300px;
 
 	box-sizing: border-box;
 
@@ -59,7 +59,7 @@
 #realisation_page_array
 {
 	width: 100%;
-	height: 125px;
+	height: 100px;
 
 	background: url(background/plancher_acier_right.jpg);
 	background-size: cover;
@@ -116,7 +116,7 @@
 
 	background-size: cover;
 	background-position: center;
-	box-shadow: 15px 15px 5px black;
+	box-shadow: 15px 15px 5px #202020;
 
 	display: flex;
 	flex-direction: row;
@@ -137,4 +137,25 @@
 	font-weight: bold;
 	color: white;
 	text-shadow: 2px 2px 1px black;
+}
+
+
+/*pour les mobiles*/
+@media screen and (max-width:1200px)
+{
+	#realisation_page_intro
+	{
+		height: 200px;
+	}
+	#realisation_page_array
+	{
+		height: 75px;
+	}
+
+
+	#realisation_page_realisations figure
+	{
+		width: 40%;
+		height: 15%;
+	}
 }
