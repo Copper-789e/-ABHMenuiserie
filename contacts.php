@@ -5,6 +5,7 @@
 	<title>ABH Contacts</title>
 	<link rel="stylesheet" type="text/css" href="style.css?ts=<?=time()?>">
 	<link rel="stylesheet" type="text/css" href="contacts.css?ts=<?=time()?>">
+	<script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 <body>
 	<div id="anchor"></div>
@@ -83,6 +84,8 @@
 								<label for="choix">En envoyant le formulaire, j'accepte que l'entreprise ABH puisse me recontacter, et que les informations saisies soient exploitées dans le cadre de la relation commerciale qui peut en découler</label>
 							</div>
 
+							<div class="g-recaptcha" 
+							data-sitekey="6LcY_7kbAAAAAOW40PJQ07BS7SblNEX2yTq6RVDl">Submit</div>
 							<input id="coordonnees_article_formulaire_concentement_submit" type="submit" value="Envoyer">
 
 							<p>
