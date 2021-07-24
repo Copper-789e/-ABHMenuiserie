@@ -61,7 +61,7 @@
 					<aside>
 						<figure style="background-image: url(nos_services/gravage_decoupe.jpg); background-size: cover; background-position: center;">
 
-							<figcaption>Une réalisation</figcaption>
+							<figcaption>Découpe sur machine à commandes numériques</figcaption>
 						</figure>
 					</aside>
 					<article id="compagny_section_1_article">
@@ -83,7 +83,7 @@
 					<aside>
 						<figure style="background-image: url(realisation/real_3/meuble_1.jpg); background-size: cover; background-position: center;">
 						
-							<figcaption>Une réalisation</figcaption>
+							<figcaption>Aménagement personnalisé</figcaption>
 						</figure>
 					</aside>	
 				</div>
