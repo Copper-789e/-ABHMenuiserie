@@ -47,8 +47,8 @@
 			<figure style="background-image: url(realisation/real_2/arriere.jpg)";>
 				<figcaption>Aménagement professionnel</figcaption>
 			</figure>
-			<figure >
-				<figcaption>Prochainement ...</figcaption>
+			<figure style="background-image: url(realisation/real_4/arriere_good.jpg)">
+				<figcaption>Pose vitrage</figcaption>
 			</figure>
 			<!--2ère ligne-->
 			<figure >
