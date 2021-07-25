@@ -10,19 +10,19 @@
 
     <div style="position: relative; top: 100px; width: 100%; height: 100%; display: flex; justify-content: center;">
         <?php
-        $final_message = 'Message envoyé depuis la page Contact de monsite.fr
+        $final_message = 'Message envoye depuis la page Contact de monsite.fr
         
         Nom : ' . $_POST['nom'] .'
         Prenom : ' . $_POST['prenom'] .' 
         Email : ' . $_POST['email'] .' 
         Telephone : ' . $_POST['telephone'] .' 
         Adresse : ' . $_POST['adresse'] .'
-        Société : ' . $_POST['societe'] .'
+        Societe : ' . $_POST['societe'] .'
 
         Message : ' . $_POST['message'];
 
 
-        $retour = mail('contact@menuiserieabh.fr', 'Envoi depuis la page Contact', $final_message, 'From : site web');
+        $retour = mail('n.gallard129@laposte.net', 'Envoi depuis la page Contact', $final_message, 'From : page contact');
         if ($retour) {
             echo '<p>Votre message a bien été envoyé.</p>';
         }
