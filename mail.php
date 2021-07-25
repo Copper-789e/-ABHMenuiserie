@@ -22,7 +22,7 @@
         Message : ' . $_POST['message'];
 
 
-        $retour = mail('n.gallard129@gmail.com', 'Envoi depuis la page Contact', $final_message, 'From : site web');
+        $retour = mail('contact@menuiserieabh.fr', 'Envoi depuis la page Contact', $final_message, 'From : site web');
         if ($retour) {
             echo '<p>Votre message a bien été envoyé.</p>';
         }
