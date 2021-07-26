@@ -18,25 +18,29 @@
 			<!--section info + google map-->
 			<div id="left_side">
 				<!--section pour coordonnées-->
-				<article id="coordonnees_article_left">
-					<h2>COORDONNÉES</h2>
-					<p>
-						<strong>adresse :</strong> 26 rue de la Chasse à Eaux 50110 Cherbourg-en-Cotentin / Tourlaville<br/>
-						<strong>numéro :</strong> 07.52.59.14.46<br/>
-						<strong>mail :</strong> Menuiserie.abh@outlook.fr<br/>
-					</p>
-
-					<h2 id="coordonnees_article_left_2_h3">HORAIRES D'OUVERTURE</h2>
-						<ul>
-							<li><strong>Lundi à Jeudi :</strong> 8H00-18H00<br/></li>
-							<li><strong>Vendredi :</strong> 8H00-17H00<br/></li>
-							<li><strong>Fermé le week-end</strong></li>
-						</ul>
-						<p>
-						<strong>Les horaires fluctuent en fonction des poses et rendez-vous extérieurs</strong>
-							
-						</p>
-				</article>
+				<form id="coordonnees_article_left">
+					<fieldset>
+						<legend>COORDONNÉES</legend>
+						<article>
+							<ul id="coordonnees_article_left_coordonnees_arrays_1">
+								<li><strong>adresse :</strong> 26 rue de la Chasse à Eaux 50110 Cherbourg-en-Cotentin / Tourlaville</li>
+								<li><strong>numéro :</strong> 07.52.59.14.46</li>
+								<li><strong>mail :</strong> Menuiserie.abh@outlook.fr</li>
+							</ul>	
+						</article>
+					</fieldset>
+					<fieldset>
+						<legend>HORAIRES D'OUVERTURE</legend>
+						<article>
+							<ul id="coordonnees_article_left_coordonnees_arrays_2">
+								<li><strong>Lundi à Jeudi :</strong> 8H00-18H00<br/></li>
+								<li><strong>Vendredi :</strong> 8H00-17H00<br/></li>
+								<li><strong>Fermé le week-end</strong></li>
+								<li></br><strong>Les horaires fluctuent en fonction des poses et rendez-vous extérieurs</strong></li>
+							</ul>
+						</article>
+					</fieldset>
+				</form>
 				
 				<!--google map-->
 				<figure class="google_map_figure">

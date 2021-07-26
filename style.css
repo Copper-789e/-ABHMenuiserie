@@ -7,6 +7,10 @@
 {
 	text-align: center;
 }
+.any_decoration_list
+{
+	list-style: none;
+}
 strong
 {
 	font-weight: bold;
@@ -30,7 +34,7 @@ header a, footer h1,footer h2,footer h3,footer h4,footer p,footer li,footer lege
 }
 h1
 {
-	font-size: 1.5em;
+	font-size: 1.45em;
 }
 h2
 {
@@ -104,7 +108,7 @@ a:hover
 }
 .element_nav_clicker
 {
-	width: 33%;
+	min-width: 33%;
 	height: 90%;
 
 	display: flex;
@@ -202,10 +206,6 @@ footer ul
 	#element_nav
 	{
 		margin: 0px;
-	}
-	#element_nav h1
-	{
-		font-size: 1.5em;
 	}
 	.element_nav_clicker
 	{

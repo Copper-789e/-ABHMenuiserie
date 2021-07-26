@@ -59,7 +59,7 @@
 				<!--1er partie sur les véhicules-->
 				<div id="compagny_section_1">
 					<aside>
-						<figure style="background-image: url(nos_services/gravage_decoupe.jpg); background-size: cover; background-position: center;">
+						<figure style="background-image: url(realisation/autre/gravage_decoupe.jpg); background-size: cover; background-position: center;">
 
 							<figcaption>Découpe sur machine à commandes numériques</figcaption>
 						</figure>
@@ -81,7 +81,7 @@
 						</p>
 					</article>
 					<aside>
-						<figure style="background-image: url(realisation/real_3/meuble_1.jpg); background-size: cover; background-position: center;">
+						<figure style="background-image: url(realisation/real_2/meuble_1.jpg); background-size: cover; background-position: center;">
 						
 							<figcaption>Aménagement personnalisé</figcaption>
 						</figure>
@@ -105,7 +105,7 @@
 				
 					<figcaption>Habillage protection intérieur de véhicules</figcaption>
 				</figure>
-				<figure style="background-image: url(nos_services/gravage_decoupe.jpg);">
+				<figure style="background-image: url(realisation/autre/gravage_decoupe.jpg);">
 				
 					<figcaption>Découpe de panneaux et gravages</figcaption>
 				</figure>

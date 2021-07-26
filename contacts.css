@@ -1,3 +1,10 @@
+/*generalite*/
+legend
+{
+	font-size: 2.5em;
+}
+
+
 /*page contact*/
 #contact_page
 {
@@ -39,9 +46,6 @@
 
 	margin-bottom: 50px;
 
-	background: url(background/plaque_aluminium_dim.jpg);
-	background-size: cover;
-
 	border: 0px black solid;
 	border-radius: 50px/50px;
 
@@ -49,22 +53,44 @@
 	flex-direction: column;
 	justify-content: center;
 }
-#coordonnees_article_left h3
+#coordonnees_article_left fieldset
 {
-	font-size: 3em;
+	width: 100%;
+	height: 50%;
+
+	box-sizing: border-box;
+	padding: 10px;
 }
-#coordonnees_article_left p
+#coordonnees_article_left article
 {
-	font-size: 1.5em;
+	width: 100%;
+	height: 100%;
+
+	background-color: #999999;
 }
 #coordonnees_article_left li
 {
 	font-size: 1.5em;
-	margin-left: 1.5em;
+	color: #FFF;
+
+	list-style: none;
 }
-#coordonnees_article_left_2_h3
+#coordonnees_article_left_coordonnees_arrays_1, #coordonnees_article_left_coordonnees_arrays_2
 {
-	margin-top: 2em;
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#coordonnees_article_left_coordonnees_arrays_1 li, #coordonnees_article_left_coordonnees_arrays_2
+{
+	margin-left: 10px;
+}
+#coordonnees_article_left_coordonnees_arrays_1 li:nth-child(2)
+{
+	margin: 10px;
 }
 .google_map_figure
 {
