@@ -276,6 +276,9 @@
 	{
 		height: 50%;
 		width: 100%;
+
+		box-sizing: border-box;
+		padding: 50px;
 	}
 	#presentation_article_list
 	{
@@ -288,9 +291,9 @@
 		height: 30%;
 		width: 80%;
 
+		box-sizing: border-box;
 		margin: 10%;
 		padding: 25px;
-		box-sizing: border-box;
 	}
 
 
@@ -316,7 +319,7 @@
 		height: 40%;
 		width: 100%;
 
-		padding: 0px;
+		padding: 50px;
 	}
 	#compagny_section_1 aside, #compagny_section_2 aside
 	{
