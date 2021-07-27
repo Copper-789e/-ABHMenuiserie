@@ -5,6 +5,7 @@
 	<title>ABH Contacts</title>
 	<link rel="stylesheet" type="text/css" href="style.css?ts=<?=time()?>">
 	<link rel="stylesheet" type="text/css" href="contacts.css?ts=<?=time()?>">
+	<!--pour le reCAPTCHA-->
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
@@ -53,11 +54,12 @@
 			<!--section pour l'email-->
 			<article id="coordonnees_article_right">
 				<h2>Contactez-nous</h2>
-				<form id="coordonnees_article_formulaire" method="post" action=mail.php>
+				<form id="coordonnees_article_formulaire" method="POST">
+
+					<!-- action=mail.php -->
 					<!--les coordonnées de la personnes-->
 					<fieldset id="coordonnees_article_formulaire_1fieldset">
 						<legend>Vos coordonnées</legend>
-
 						<input type="text" name="nom" placeholder="nom *" required></br>
 
 						<input type="text" name="prenom" placeholder="prénom *" required></br>
@@ -83,32 +85,50 @@
 					<fieldset>
 						<legend>Concentement</legend>
 						<div id="coordonnees_article_formulaire_concentement_box">
-							<div id="coordonnees_article_formulaire_concentement">
-								<input type="checkbox" id="choix" name="choix" required>
-								<label for="choix">En envoyant le formulaire, j'accepte que l'entreprise ABH puisse me recontacter, et que les informations saisies soient exploitées dans le cadre de la relation commerciale qui peut en découler</label>
-							</div>
-
-							
-							
+							<p><strong>Vos informations seront supprimées si vous ne complétez pas le reCAPTCHA</strong></p>
 							<div class="g-recaptcha" data-sitekey="6Lc5W8QbAAAAAIFkuS9m9uvqwiIicD4Ie6T45n9d"></div>
+							<label>En envoyant le formulaire, j'accepte que l'entreprise ABH puisse me recontacter, et que les informations saisies soient exploitées dans le cadre de la relation commerciale qui peut en découler</label>
+
 							<?php
 							require('ReCaptcha/autoload.php');
 							if(isset($_POST['submitpost'])) {
 								if(isset($_POST['g-recaptcha-response'])) {
-									$recaptcha = new \ReCaptcha\ReCaptcha('6Le-LMQbAAAAAGzGwusbV10uZDMRxiQlThFXjW6j');
+									$recaptcha = new \ReCaptcha\ReCaptcha('6Lc5W8QbAAAAABZQy-vK97_auqMons-XZ2uTuyxP');
 									$resp = $recaptcha->verify($_POST['g-recaptcha-response']);
 									if ($resp->isSuccess()) {
-										var_dump('Captcha Valide');
+										$final_message = 'Message envoye depuis la page Contact :
+'
+										. 'Nom : ' . $_POST['nom'] .'
+'
+										. 'Prenom : ' . $_POST['prenom'].'
+'
+										. 'Email : ' . $_POST['email'].'
+'
+										. 'Telephone : ' . $_POST['telephone'].'
+'
+										. 'Adresse : ' . $_POST['adresse'].'
+'
+										. 'Societe : ' . $_POST['societe'].'
+
+'										. 'Message : ' . $_POST['message'];
+
+
+										$retour = mail('menuiserie.abh@outlook.fr', 'Envoi depuis la page Contact', $final_message, 'From : page contact');
+										if ($retour) {
+											echo '<p style="color: red;">Votre message a bien été envoyé</p>';
+										}
+										else{
+											echo "<p style='color: red;'>Votre message n'a pas été envoyé</p>";	
+										}
 									} else {
-										$errors = $resp->getErrorCodes();
-										var_dump('Captcha Invalide');
-										var_dump($errors);
+										echo '<p style="color: red;">Veillez remplir le reCAPTCHA</p>';
 									}
 								} else {
-									var_dump('Captcha non rempli');
+									echo '<p style="color: red;">NOP</p>';
 								}
 							}
 							?>
+
 							<input id="coordonnees_article_formulaire_concentement_submit" type="submit" value="Envoyer" name="submitpost">
 
 							<p>

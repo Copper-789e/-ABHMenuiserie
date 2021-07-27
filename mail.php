@@ -23,7 +23,7 @@
             Message : ' . $_POST['message'];
 
 
-            $retour = mail('n.gallard129@laposte.net', 'Envoi depuis la page Contact', $final_message, 'From : page contact');
+            $retour = mail('adressemail@mettre ton adresse mail ici', 'Envoi depuis la page Contact', $final_message, 'From : page contact');
             if ($retour) {
                 echo '<p style="white; color: black; text-shadow: none; font-size: 1.5em; width: 50%; height: 2em; text-align: center;">Votre message a bien été envoyé.</p>
                 <a href="contacts.php" style="white; color: black; text-shadow: none; font-size: 1.5em; width: 50%; height: 2em; text-align: center";>Revenir à la page des contacts</a>';
