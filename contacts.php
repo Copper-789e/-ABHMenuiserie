@@ -5,7 +5,7 @@
 	<title>ABH Contacts</title>
 	<link rel="stylesheet" type="text/css" href="style.css?ts=<?=time()?>">
 	<link rel="stylesheet" type="text/css" href="contacts.css?ts=<?=time()?>">
-	<script src="https://www.google.com/recaptcha/api.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 	<div id="anchor"></div>
@@ -88,10 +88,28 @@
 								<label for="choix">En envoyant le formulaire, j'accepte que l'entreprise ABH puisse me recontacter, et que les informations saisies soient exploitées dans le cadre de la relation commerciale qui peut en découler</label>
 							</div>
 
-							<script src="https://www.google.com/recaptcha/api.js"></script>
-							<div class="g-recaptcha" data-sitekey="6Le-LMQbAAAAAGzGwusbV10uZDMRxiQlThFXjW6j"></div>
 							
-							<input id="coordonnees_article_formulaire_concentement_submit" type="submit" value="Envoyer">
+							
+							<div class="g-recaptcha" data-sitekey="6Lc5W8QbAAAAAIFkuS9m9uvqwiIicD4Ie6T45n9d"></div>
+							<?php
+							require('ReCaptcha/autoload.php');
+							if(isset($_POST['submitpost'])) {
+								if(isset($_POST['g-recaptcha-response'])) {
+									$recaptcha = new \ReCaptcha\ReCaptcha('6Le-LMQbAAAAAGzGwusbV10uZDMRxiQlThFXjW6j');
+									$resp = $recaptcha->verify($_POST['g-recaptcha-response']);
+									if ($resp->isSuccess()) {
+										var_dump('Captcha Valide');
+									} else {
+										$errors = $resp->getErrorCodes();
+										var_dump('Captcha Invalide');
+										var_dump($errors);
+									}
+								} else {
+									var_dump('Captcha non rempli');
+								}
+							}
+							?>
+							<input id="coordonnees_article_formulaire_concentement_submit" type="submit" value="Envoyer" name="submitpost">
 
 							<p>
 								* signifie que le champ est obligatoire pour que le formulaire soit envoyé
