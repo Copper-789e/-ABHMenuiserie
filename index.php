@@ -66,8 +66,12 @@
 					</aside>
 					<article id="compagny_section_1_article">
 						<p>
-						Nous aménageons votre utilitaire pour qu'il s'adapte à vos activités professionnelles ou de loisirs. Toutes nos réalisations sont faites sur-mesure en fonction de vos besoins. </br>
-						Nous vous proposons des solutions personnalisées afin d'aménager votre véhicule comme vous le souhaitez. Nous travaillons les véhicules quelque soit leur marque : Peugeot, Fiat, Renault, Wolkswagen, Ford, Mercedes, Iveco,... </br>
+						Nous aménageons votre utilitaire pour qu'il s'adapte à vos activités professionnelles ou de loisirs. Toutes nos réalisations sont faites sur-mesure en fonction de vos besoins.
+						</p>
+						<p>
+						Nous vous proposons des solutions personnalisées afin d'aménager votre véhicule comme vous le souhaitez. Nous travaillons les véhicules quelque soit leur marque : Peugeot, Fiat, Renault, Wolkswagen, Ford, Mercedes, Iveco,...
+						</p>
+						<p>
 						Nous mettons en oeuvre tout notre savoir faire ainsi que nos connaissances dans le domaine de l'aménagement et l'équipement de véhicules.
 						</p>
 					</article>
@@ -76,7 +80,9 @@
 				<div id="compagny_section_2">
 					<article id="compagny_section_2_article">
 						<p>
-							Nous réalisons la découpe de panneaux de contreplaqués, mélaminés, MDF, OSB, aluminiums sur-mesure. Choisissez la matière, les dimensions, nous nous chargerons du reste. </br>
+							Nous réalisons la découpe de panneaux de contreplaqués, mélaminés, MDF, OSB, aluminiums sur-mesure. Choisissez la matière, les dimensions, nous nous chargerons du reste.
+						</p>
+						<p>
 							Nous réalisons le placage de chants, panneaux, ...
 						</p>
 					</article>
