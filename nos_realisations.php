@@ -25,7 +25,7 @@
 
 		<!--lister les categories-->
 		<div id="realisation_page_array">
-			<h2>Toutes les réalisations :</h2>
+			<h2>Nos réalisations :</h2>
 			<!--
 			<h2>Toutes les catégories :</h2>
 			<div id="realisation_page_array_array">
@@ -47,15 +47,15 @@
 			<figure style="background-image: url(realisation/real_2/arriere.jpg)";>
 				<figcaption>Aménagement professionnel</figcaption>
 			</figure>
-			<figure style="background-image: url(realisation/real_3/arriere.jpg)">
+			<figure style="background-image: url(realisation/real_3/arriere.jpg)";>
 				<figcaption>Pose vitrage</figcaption>
 			</figure>
 			<!--2ère ligne-->
-			<figure >
-				<figcaption>Prochainement ...</figcaption>
+			<figure style="background-image: url(realisation/real_4/panneau.jpg)";>
+				<figcaption>Gravage sur panneaux</figcaption>
 			</figure>
-			<figure >
-				<figcaption>Prochainement ...</figcaption>
+			<figure style="background-image: url(realisation/real_5/arriere.jpg)";>
+				<figcaption>504 pick-up</figcaption>
 			</figure>
 			<figure >
 				<figcaption>Prochainement ...</figcaption>

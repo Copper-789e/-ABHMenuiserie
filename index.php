@@ -23,21 +23,19 @@
 				<div id="presentation_article_list">
 					<h3>Ce que nous faisons :</h3>
 					<ul>
-						<li>Aménagement de véhicule extérieur et intérieur</li>
-						<li>Signalisations lumineuses et balises de sécurité</li>
+						<li>Aménagement loisir et professionel</li>
+						<li>Kit pour véhicule intérieur/extérieur</li>
 						<li>Accessoires pour véhicule</li>
-						<li>Aménagement pour professionnels et particuliers</li>
-						<li>Découpe de panneaux multimatériaux (bois/plexiglass/composite...)</li>
 						<li>Plaquage de chants pour meubles</li>
+						<li>Signalisations lumineuses et balises de sécurité</li>
+						<li>Découpe de panneaux multimatériaux (bois/plexiglass/composite...)</li>
 					</ul>
 				</div>
 			</article>
 			
 			<!--section contact-->
 			<aside id="presentation_contact">
-				<h4>
-					Contactez-nous ! Nous serons ravis de vous fournir les informations que vous souhaitez.
-				</h4>
+				<h3>Nous serons ravis de vous fournir les informations que vous souhaitez</h3>
 
 				<a href="contacts.php">
 					<button id="presentation_contact_button" >
