@@ -26,9 +26,9 @@
 						<li>Aménagement loisir et professionel</li>
 						<li>Kit pour véhicule intérieur/extérieur</li>
 						<li>Accessoires pour véhicule</li>
-						<li>Plaquage de chants pour meubles</li>
 						<li>Signalisations lumineuses et balises de sécurité</li>
 						<li>Découpe de panneaux multimatériaux (bois/plexiglass/composite...)</li>
+						<li>Plaquage de chants pour meubles</li>
 					</ul>
 				</div>
 			</article>
