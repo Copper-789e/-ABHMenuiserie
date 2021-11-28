@@ -112,7 +112,8 @@
 
 '										. 'Message : ' . $_POST['message'];
 
-
+										
+										if ($retour) {
 										$retour = mail('menuiserie.abh@outlook.fr', 'Envoi depuis la page Contact', $final_message, 'From : page contact');
 											echo '<p style="color: red;">Votre message a bien été envoyé</p>';
 										}
