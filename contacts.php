@@ -89,9 +89,46 @@
 							<div class="g-recaptcha" data-sitekey="6Lc5W8QbAAAAAIFkuS9m9uvqwiIicD4Ie6T45n9d"></div>
 							<label>En envoyant le formulaire, j'accepte que l'entreprise ABH puisse me recontacter, et que les informations saisies soient exploitées dans le cadre de la relation commerciale qui peut en découler</label>
 
-							<p>
-								veillez ne plus envoyer de mail à "menuiserie.abh@outlook.fr", nous avons reçu une attaque
-							</p>
+							<?php
+							require('ReCaptcha/autoload.php');
+							if(isset($_POST['submitpost'])) {
+								if(isset($_POST['g-recaptcha-response'])) {
+									$recaptcha = new \ReCaptcha\ReCaptcha('6Lc5W8QbAAAAABZQy-vK97_auqMons-XZ2uTuyxP');
+									$resp = $recaptcha->verify($_POST['g-recaptcha-response']);
+									if ($resp->isSuccess()) {
+										$final_message = 'Message envoye depuis la page Contact :
+'
+										. 'Nom : ' . $_POST['nom'] .'
+'
+										. 'Prenom : ' . $_POST['prenom'].'
+'
+										. 'Email : ' . $_POST['email'].'
+'
+										. 'Telephone : ' . $_POST['telephone'].'
+'
+										. 'Adresse : ' . $_POST['adresse'].'
+'
+										. 'Societe : ' . $_POST['societe'].'
+
+'										. 'Message : ' . $_POST['message'];
+
+
+										#$retour = mail('menuiserie.abh@outlook.fr', 'Envoi depuis la page Contact', $final_message, 'From : page contact');
+										$retour = mail('n.gallard129@laposte.net', 'Envoi depuis la page Contact', $final_message, 'From : page contact')
+										if ($retour) {
+											echo '<p style="color: red;">Votre message a bien été envoyé</p>';
+										}
+										else{
+											echo "<p style='color: red;'>Votre message n'a pas été envoyé</p>";	
+										}
+									} else {
+										echo '<p style="color: red;">Veillez remplir le reCAPTCHA</p>';
+									}
+								} else {
+									echo '<p style="color: red;">NOP</p>';
+								}
+							}
+							?>
 
 							<input id="coordonnees_article_formulaire_concentement_submit" type="submit" value="Envoyer" name="submitpost">
 
