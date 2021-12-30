@@ -26,7 +26,6 @@
 							<ul id="coordonnees_article_left_coordonnees_arrays_1">
 								<li><strong>adresse :</strong> 26 rue de la Chasse à Eaux 50110 Cherbourg-en-Cotentin / Tourlaville</li>
 								<li><strong>numéro :</strong> 07.52.59.14.46</li>
-								<li><strong>mail :</strong> Menuiserie.abh@outlook.fr</li>
 							</ul>
 						</article>
 					</fieldset>
@@ -34,8 +33,8 @@
 						<legend>HORAIRES D'OUVERTURE</legend>
 						<article>
 							<ul id="coordonnees_article_left_coordonnees_arrays_2">
-								<li><strong>Lundi à Jeudi :</strong> 8H00-18H00<br/></li>
-								<li><strong>Vendredi :</strong> 8H00-17H00<br/></li>
+								<li><strong>Lundi à Jeudi :</strong> 8H30-18H00<br/></li>
+								<li><strong>Vendredi :</strong> 8H30-17H00<br/></li>
 								<li><strong>Fermé le week-end</strong></li>
 								<li></br><strong>Les horaires fluctuent en fonction des poses et rendez-vous extérieurs</strong></li>
 							</ul>
