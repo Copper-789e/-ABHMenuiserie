@@ -20,7 +20,7 @@
 			<div id="left_side">
 				<!--section pour coordonnées-->
 				<form id="coordonnees_article_left">
-					<fieldset>
+					<fieldset id="coordonnees_article_left_fieldset_1">
 						<legend>COORDONNÉES</legend>
 						<article>
 							<ul id="coordonnees_article_left_coordonnees_arrays_1">
@@ -29,7 +29,7 @@
 							</ul>
 						</article>
 					</fieldset>
-					<fieldset>
+					<fieldset id="coordonnees_article_left_fieldset_2">
 						<legend>HORAIRES D'OUVERTURE</legend>
 						<article>
 							<ul id="coordonnees_article_left_coordonnees_arrays_2">

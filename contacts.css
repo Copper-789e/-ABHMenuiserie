@@ -51,16 +51,25 @@ legend
 
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 }
 #coordonnees_article_left fieldset
 {
 	width: 100%;
-	height: 50%;
 
 	box-sizing: border-box;
 	padding: 10px;
 }
+
+#coordonnees_article_left_fieldset_1
+{
+	height: 35%;
+}
+#coordonnees_article_left_fieldset_2
+{
+	height: 45%;
+}
+
 #coordonnees_article_left article
 {
 	width: 100%;
@@ -226,5 +235,14 @@ form p
 	{
 		width: 100%;
 		height: 1300px;
+	}
+
+	#coordonnees_article_left_fieldset_1
+	{
+		height: 45%;
+	}
+	#coordonnees_article_left_fieldset_2
+	{
+		height: 45%;
 	}
 }
