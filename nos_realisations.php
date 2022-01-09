@@ -57,12 +57,12 @@
 			<figure style="background-image: url(realisation/real_5/arriere.jpg)";>
 				<figcaption>504 pick-up</figcaption>
 			</figure>
-			<figure >
-				<figcaption>Prochainement ...</figcaption>
+			<figure style="background-image: url(realisation/real_6/interieur.jpg)";>
+				<figcaption>Aménagement loisir</figcaption>
 			</figure>
 			<!--3ère ligne-->
-			<figure >
-				<figcaption>Prochainement ...</figcaption>
+			<figure style="background-image: url(realisation/real_7/arriere.jpg)";>
+				<figcaption>Ford Custom</figcaption>
 			</figure>
 			<figure >
 				<figcaption>Prochainement ...</figcaption>
